@@ -13,3 +13,9 @@ Pré-requesitos: Adobe Photoshop CS6, arquivo do ícone em png 16x16px
 3. Se a pasta não existir, ela deverá ser criada
 4. Abrir o Photoshop e carregar o arquivo png
 5. Salvar o arquivo como "ICO (Windows Icon) (*.ICO)"
+
+### Biblioteca de ícones
+Projeto no Figma com todos os ícones utilizados:
+
+https://www.figma.com/file/gl5QfVl6VtUe6JSTOUoa8JCZ/Participe-%C3%8Dcones?node-id=0%3A1
+
