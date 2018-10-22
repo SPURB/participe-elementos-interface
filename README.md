@@ -16,5 +16,6 @@ Pré-requesitos: Adobe Photoshop CS6, arquivo do ícone em png 16x16px
 
 ### Biblioteca de ícones
 Projeto no Figma com todos os ícones utilizados:
+
 https://www.figma.com/file/gl5QfVl6VtUe6JSTOUoa8JCZ/Participe-%C3%8Dcones?node-id=0%3A1
 
