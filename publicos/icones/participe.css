@@ -1,0 +1,126 @@
+@font-face {
+	font-family: "participe";
+	src: url("participe.eot?246ca8bb607093311d8cee5ab24e7d6e?#iefix") format("embedded-opentype"),
+url("participe.woff2?246ca8bb607093311d8cee5ab24e7d6e") format("woff2"),
+url("participe.woff?246ca8bb607093311d8cee5ab24e7d6e") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: participe !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-abrir_direita:before {
+	content: "\f101";
+}
+.icon-abrir_esquerda:before {
+	content: "\f102";
+}
+.icon-aceitar:before {
+	content: "\f103";
+}
+.icon-acessar_url:before {
+	content: "\f104";
+}
+.icon-adicionar:before {
+	content: "\f105";
+}
+.icon-agrupar:before {
+	content: "\f106";
+}
+.icon-anexos:before {
+	content: "\f107";
+}
+.icon-buscar:before {
+	content: "\f108";
+}
+.icon-calendario_vazio:before {
+	content: "\f109";
+}
+.icon-comentario:before {
+	content: "\f10a";
+}
+.icon-contribuicao:before {
+	content: "\f10b";
+}
+.icon-correto:before {
+	content: "\f10c";
+}
+.icon-data:before {
+	content: "\f10d";
+}
+.icon-desagrupar:before {
+	content: "\f10e";
+}
+.icon-dialogo:before {
+	content: "\f10f";
+}
+.icon-download:before {
+	content: "\f110";
+}
+.icon-editar:before {
+	content: "\f111";
+}
+.icon-expandir:before {
+	content: "\f112";
+}
+.icon-home:before {
+	content: "\f113";
+}
+.icon-incorreto:before {
+	content: "\f114";
+}
+.icon-lista:before {
+	content: "\f115";
+}
+.icon-listagem:before {
+	content: "\f116";
+}
+.icon-mais:before {
+	content: "\f117";
+}
+.icon-material:before {
+	content: "\f118";
+}
+.icon-novamente:before {
+	content: "\f119";
+}
+.icon-oficio:before {
+	content: "\f11a";
+}
+.icon-pdf:before {
+	content: "\f11b";
+}
+.icon-recolher:before {
+	content: "\f11c";
+}
+.icon-rejeitar:before {
+	content: "\f11d";
+}
+.icon-remover:before {
+	content: "\f11e";
+}
+.icon-responder:before {
+	content: "\f11f";
+}
+.icon-seta_baixo:before {
+	content: "\f120";
+}
+.icon-seta_cima:before {
+	content: "\f121";
+}
+.icon-seta_direita:before {
+	content: "\f122";
+}
+.icon-seta_esquerda:before {
+	content: "\f123";
+}
+.icon-slideshow:before {
+	content: "\f124";
+}

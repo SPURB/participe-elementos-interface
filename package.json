@@ -1,0 +1,30 @@
+{
+  "name": "participe-elementos-interface",
+  "version": "1.0.0",
+  "description": "Elementos de interface do https://participe.gestaourbana.prefeitura.sp.gov.br",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "icons": "node ./tarefas/criaIcones.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPURB/participe-elementos-interface.git"
+  },
+  "keywords": [
+    "user-interface",
+    "icons",
+    "fonts",
+    "prefeitura",
+    "sao-paulo"
+  ],
+  "author": "SPUrbanismo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/SPURB/participe-elementos-interface/issues"
+  },
+  "homepage": "https://github.com/SPURB/participe-elementos-interface#readme",
+  "devDependencies": {
+    "webfonts-generator": "^0.4.0"
+  }
+}
