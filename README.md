@@ -43,4 +43,4 @@ https://www.figma.com/file/gl5QfVl6VtUe6JSTOUoa8JCZ/Participe-%C3%8Dcones?node-i
 # na raiz do projeto
 npm run icons
 ```
-Se tudo der certo a font com os ícones do participe estará criada em `publicos/fontes`.
+Se tudo der certo a font com os ícones do participe estará criada em `publicos/icones`.

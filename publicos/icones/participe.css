@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "participe";
-	src: url("participe.eot?246ca8bb607093311d8cee5ab24e7d6e?#iefix") format("embedded-opentype"),
-url("participe.woff2?246ca8bb607093311d8cee5ab24e7d6e") format("woff2"),
-url("participe.woff?246ca8bb607093311d8cee5ab24e7d6e") format("woff");
+	src: url("participe.eot?46480e6cdc07a0e4ee95252da4d2f727?#iefix") format("embedded-opentype"),
+url("participe.woff2?46480e6cdc07a0e4ee95252da4d2f727") format("woff2"),
+url("participe.woff?46480e6cdc07a0e4ee95252da4d2f727") format("woff");
 }
 
 .icon {
@@ -88,39 +88,42 @@ url("participe.woff?246ca8bb607093311d8cee5ab24e7d6e") format("woff");
 .icon-material:before {
 	content: "\f118";
 }
-.icon-novamente:before {
+.icon-menu:before {
 	content: "\f119";
 }
-.icon-oficio:before {
+.icon-novamente:before {
 	content: "\f11a";
 }
-.icon-pdf:before {
+.icon-oficio:before {
 	content: "\f11b";
 }
-.icon-recolher:before {
+.icon-pdf:before {
 	content: "\f11c";
 }
-.icon-rejeitar:before {
+.icon-recolher:before {
 	content: "\f11d";
 }
-.icon-remover:before {
+.icon-rejeitar:before {
 	content: "\f11e";
 }
-.icon-responder:before {
+.icon-remover:before {
 	content: "\f11f";
 }
-.icon-seta_baixo:before {
+.icon-responder:before {
 	content: "\f120";
 }
-.icon-seta_cima:before {
+.icon-seta_baixo:before {
 	content: "\f121";
 }
-.icon-seta_direita:before {
+.icon-seta_cima:before {
 	content: "\f122";
 }
-.icon-seta_esquerda:before {
+.icon-seta_direita:before {
 	content: "\f123";
 }
-.icon-slideshow:before {
+.icon-seta_esquerda:before {
 	content: "\f124";
+}
+.icon-slideshow:before {
+	content: "\f125";
 }

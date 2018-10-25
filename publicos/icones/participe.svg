@@ -79,41 +79,44 @@
     <glyph glyph-name="material"
       unicode="&#xF118;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M9 25C7.9 25 7.01 24.1 7.01 23L7 7C7 5.9 7.89 5 8.99 5H21C22.1 5 23 5.9 23 7V19L17 25H9zM16 18V23.5L21.5 18H16z" />
-    <glyph glyph-name="novamente"
+    <glyph glyph-name="menu"
       unicode="&#xF119;"
+      horiz-adv-x="30" d=" M0 30H30V0H0V30z M6 9H24V11H6V9zM6 14H24V16H6V14zM6 21V19H24V21H6z" />
+    <glyph glyph-name="novamente"
+      unicode="&#xF11A;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M22 19L18 15H21C21 11.69 18.31 9 15 9C13.99 9 13.03 9.25 12.2 9.7L10.74 8.24C11.97 7.46 13.43 7 15 7C19.42 7 23 10.58 23 15H26L22 19zM9 15C9 18.31 11.69 21 15 21C16.01 21 16.97 20.75 17.8 20.3L19.26 21.76C18.03 22.54 16.57 23 15 23C10.58 23 7 19.42 7 15H4L8 11L12 15H9z" />
     <glyph glyph-name="oficio"
-      unicode="&#xF11A;"
+      unicode="&#xF11B;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M7 21H5V7C5 5.9 5.9 5 7 5H21V7H7V21zM23 25H11C9.9 25 9 24.1 9 23V11C9 9.9 9.9 9 11 9H23C24.1 9 25 9.9 25 11V23C25 24.1 24.1 25 23 25zM22 16H12V18H22V16zM18 12H12V14H18V12zM22 20H12V22H22V20z" />
     <glyph glyph-name="pdf"
-      unicode="&#xF11B;"
+      unicode="&#xF11C;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M23 25H11C9.9 25 9 24.1 9 23V11C9 9.9 9.9 9 11 9H23C24.1 9 25 9.9 25 11V23C25 24.1 24.1 25 23 25zM14.5 17.5C14.5 16.67 13.83 16 13 16H12V14H10.5V20H13C13.83 20 14.5 19.33 14.5 18.5V17.5zM19.5 15.5C19.5 14.67 18.83 14 18 14H15.5V20H18C18.83 20 19.5 19.33 19.5 18.5V15.5zM23.5 18.5H22V17.5H23.5V16H22V14H20.5V20H23.5V18.5zM12 17.5H13V18.5H12V17.5zM7 21H5V7C5 5.9 5.9 5 7 5H21V7H7V21zM17 15.5H18V18.5H17V15.5z" />
     <glyph glyph-name="recolher"
-      unicode="&#xF11C;"
+      unicode="&#xF11D;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M10.41 11.59L15 16.17L19.59 11.59L21 13L15 19L9 13L10.41 11.59z" />
     <glyph glyph-name="rejeitar"
-      unicode="&#xF11D;"
+      unicode="&#xF11E;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M9 8C9 6.9 9.9 6 11 6H19C20.1 6 21 6.9 21 8V20H9V8zM22 23H18.5L17.5 24H12.5L11.5 23H8V21H22V23z" />
     <glyph glyph-name="remover"
-      unicode="&#xF11E;"
+      unicode="&#xF11F;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M22 14H8V16H22V14z" />
     <glyph glyph-name="responder"
-      unicode="&#xF11F;"
+      unicode="&#xF120;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M13 19V23L6 16L13 9V13.1C18 13.1 21.5 11.5 24 8C23 13 20 18 13 19z" />
     <glyph glyph-name="seta_baixo"
-      unicode="&#xF120;"
+      unicode="&#xF121;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M23 15L21.59 16.41L16 10.83V23H14V10.83L8.42 16.42L7 15L15 7L23 15z" />
     <glyph glyph-name="seta_cima"
-      unicode="&#xF121;"
+      unicode="&#xF122;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M7 15L8.41 13.59L14 19.17V7H16V19.17L21.58 13.58L23 15L15 23L7 15z" />
     <glyph glyph-name="seta_direita"
-      unicode="&#xF122;"
+      unicode="&#xF123;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M15 23L13.59 21.59L19.17 16H7V14H19.17L13.59 8.41L15 7L23 15L15 23z" />
     <glyph glyph-name="seta_esquerda"
-      unicode="&#xF123;"
+      unicode="&#xF124;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M23 16H10.83L16.42 21.59L15 23L7 15L15 7L16.41 8.41L10.83 14H23V16z" />
     <glyph glyph-name="slideshow"
-      unicode="&#xF124;"
+      unicode="&#xF125;"
       horiz-adv-x="30" d=" M0 30H30V0H0V30z M13 19V11L18 15L13 19zM22 24H8C6.9 24 6 23.1 6 22V8C6 6.9 6.9 6 8 6H22C23.1 6 24 6.9 24 8V22C24 23.1 23.1 24 22 24zM22 8H8V22H22V8z" />
   </font>
 </defs>
