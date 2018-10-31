@@ -1,3 +1,3 @@
-<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6 21H24V19H6V21ZM6 16H24V14H6V16ZM6 9V11H24V9H6Z" fill="black"/>
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M200 700H800V633.333H200V700ZM200 533.333H800V466.667H200V533.333ZM200 300V366.667H800V300H200Z" fill="black"/>
 </svg>
