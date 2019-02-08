@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "participe";
-	src: url("participe.eot?e600c02278e5751a9de30a61bef8c6c7?#iefix") format("embedded-opentype"),
-url("participe.woff2?e600c02278e5751a9de30a61bef8c6c7") format("woff2"),
-url("participe.woff?e600c02278e5751a9de30a61bef8c6c7") format("woff");
+	src: url("participe.eot?9c2161f98f4e69732458dae335befc2b?#iefix") format("embedded-opentype"),
+url("participe.woff2?9c2161f98f4e69732458dae335befc2b") format("woff2"),
+url("participe.woff?9c2161f98f4e69732458dae335befc2b") format("woff");
 }
 
 .icon {
@@ -40,96 +40,108 @@ url("participe.woff?e600c02278e5751a9de30a61bef8c6c7") format("woff");
 .icon-apresentacao:before {
 	content: "\f108";
 }
-.icon-buscar:before {
+.icon-assunto:before {
 	content: "\f109";
 }
-.icon-calendario_vazio:before {
+.icon-buscar:before {
 	content: "\f10a";
 }
-.icon-comentario:before {
+.icon-calendario_vazio:before {
 	content: "\f10b";
 }
-.icon-contribuicao:before {
+.icon-comentario:before {
 	content: "\f10c";
 }
-.icon-correto:before {
+.icon-contribuicao:before {
 	content: "\f10d";
 }
-.icon-data:before {
+.icon-correto:before {
 	content: "\f10e";
 }
-.icon-desagrupar:before {
+.icon-data:before {
 	content: "\f10f";
 }
-.icon-dialogo:before {
+.icon-desagrupar:before {
 	content: "\f110";
 }
-.icon-download:before {
+.icon-diagonal_para_baixo:before {
 	content: "\f111";
 }
-.icon-editar:before {
+.icon-diagonal_para_cima:before {
 	content: "\f112";
 }
-.icon-expandir:before {
+.icon-dialogo:before {
 	content: "\f113";
 }
-.icon-home:before {
+.icon-download:before {
 	content: "\f114";
 }
-.icon-incorreto:before {
+.icon-editar:before {
 	content: "\f115";
 }
-.icon-lista:before {
+.icon-expandir:before {
 	content: "\f116";
 }
-.icon-listagem:before {
+.icon-home:before {
 	content: "\f117";
 }
-.icon-mais:before {
+.icon-imprimir:before {
 	content: "\f118";
 }
-.icon-material:before {
+.icon-incorreto:before {
 	content: "\f119";
 }
-.icon-menu:before {
+.icon-lista:before {
 	content: "\f11a";
 }
-.icon-novamente:before {
+.icon-listagem:before {
 	content: "\f11b";
 }
-.icon-oficio:before {
+.icon-mais:before {
 	content: "\f11c";
 }
-.icon-pdf:before {
+.icon-material:before {
 	content: "\f11d";
 }
-.icon-pessoa-outline:before {
+.icon-menu:before {
 	content: "\f11e";
 }
-.icon-recolher:before {
+.icon-novamente:before {
 	content: "\f11f";
 }
-.icon-rejeitar:before {
+.icon-oficio:before {
 	content: "\f120";
 }
-.icon-remover:before {
+.icon-pdf:before {
 	content: "\f121";
 }
-.icon-responder:before {
+.icon-pessoa-outline:before {
 	content: "\f122";
 }
-.icon-seta_baixo:before {
+.icon-recolher:before {
 	content: "\f123";
 }
-.icon-seta_cima:before {
+.icon-rejeitar:before {
 	content: "\f124";
 }
-.icon-seta_direita:before {
+.icon-remover:before {
 	content: "\f125";
 }
-.icon-seta_esquerda:before {
+.icon-responder:before {
 	content: "\f126";
 }
-.icon-tempo:before {
+.icon-seta_baixo:before {
 	content: "\f127";
+}
+.icon-seta_cima:before {
+	content: "\f128";
+}
+.icon-seta_direita:before {
+	content: "\f129";
+}
+.icon-seta_esquerda:before {
+	content: "\f12a";
+}
+.icon-tempo:before {
+	content: "\f12b";
 }
