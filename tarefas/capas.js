@@ -1,9 +1,17 @@
+const fs = require('fs')
 const sharp = require('sharp')
+
+
+
+
 const file = process.env.npm_package_config_arquivo
 
 const inputFolder = './capas/'
 const outputFolder = './publicos/capas/'
 const sizes = [ 1900, 1300, 1000, 700, 480, 15 ]
+
+let setup = dir => { !fs.existsSync(dir) && fs.mkdirSync(dir) }
+setup(outputFolder)
 
 let inputPath = file => `${ inputFolder }${ file }`
 let createFile = ( input, width ) => {
@@ -29,7 +37,6 @@ let createFile = ( input, width ) => {
 }
 
 if (file === 'default'){
-    const fs = require('fs')
     fs.readdir('./capas/', (err, arquivos) => {
         arquivos.forEach(arquivo => {
             sizes.forEach(size => createFile(inputPath(arquivo), size) )
