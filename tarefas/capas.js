@@ -1,9 +1,6 @@
 const fs = require('fs')
 const sharp = require('sharp')
 
-
-
-
 const file = process.env.npm_package_config_arquivo
 
 const inputFolder = './capas/'
