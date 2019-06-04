@@ -1,12 +1,14 @@
 # Participe-elementos-interface
 
-Repositório de ícones, arquivos editáveis e plugins do participe.gestaourbana.sp.gov.br
+Repositório de ícones, favicon e capas do https://participe.gestaourbana.sp.gov.br
 
   - `editaveis/` -> arquivos abertos (illustrator)
+  - `capas/` -> originais de capas de consultas públicas
   - `publicos/` -> arquivos públicos 
   - `plugins/` -> plugins para os editáveis  
   - `tarefas/` -> tarefas de automatizacao
 ___
+## Favicon
 ### Como gerar um arquivo ico a partir de um png
 #### Pré-requesitos: 
  - Adobe Photoshop CS6 
@@ -17,7 +19,9 @@ ___
 4. Abrir o Photoshop e carregar o arquivo png
 5. Salvar o arquivo como *ICO (Windows Icon) (`*.ICO`)*
 ___
-### Como atualizar a webfont com os ícones do participe 
+
+## Ícones
+### Como atualizar a webfont com os ícones do participe
 > O participe utiliza webfont para renderizar os ícones. Veja abaixo o procedimento para atualizar. 
 #### Pré-requisitos: 
 - [nodejs](https://nodejs.org/en/)
@@ -46,9 +50,33 @@ npm run icons
 Se tudo der certo a font com os ícones do participe estará criada em `publicos/icones`.
 
 ___
-### Capas 
-> Procedimento para criar capas para home do participe. 
+## Capas
+
+### Como gerar todas as versões de capas
+Procedimento para criar capas para home do participe. 
+
+#### Pré-requisitos:
+- [nodejs](https://nodejs.org/en/)
+- [git-fls](https://git-lfs.github.com/)
+- Imagem da consulta com pelo menos 1900px de largura
+
+#### Instruções:
+
+1. Inclua a `NOVA-CAPA` no diretório `/capas/`
+2. Execute o comando alterando o parâmetro `arquivo`:
 
 ```bash
-npm run capas --elemento:arquivo=nome-do-arquivo.jpg
+npm run capas --elemento:arquivo=NOVA-CAPA.jpg
 ```
+
+ou compile todas as imagens do diretório `/capas/`
+
+```bash
+npm run capas
+```
+
+Serão criadas no diretório `publicos/capas/`. Serão criadas imagens com as seguintes larguras (em pixels): `1900`,
+`1300`, `1000`, `700`, `480`, `15`
+
+O comando também irá criar, nos mesmos formatos e larguras, imagens do tipo `.webp`
+
