@@ -2,7 +2,6 @@ const webfontsGenerator = require('webfonts-generator')
 const fs = require('fs')
 const pathIcones = 'editaveis/icones/'
 const destino = 'publicos/icones'
-// const destino = '../participe/src/assets/icones'
 const nomeFonte = 'participe'
 
 fs.readdir(pathIcones, (err, data) => {

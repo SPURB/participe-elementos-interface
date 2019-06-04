@@ -1,3 +1,6 @@
+# Builded images
+/publicos/capas/*
+
 # Logs
 logs
 *.log

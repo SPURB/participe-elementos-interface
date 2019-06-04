@@ -1,11 +1,14 @@
 {
-  "name": "participe-elementos-interface",
+  "name": "elemento",
   "version": "1.0.0",
   "description": "Elementos de interface do https://participe.gestaourbana.prefeitura.sp.gov.br",
-  "main": "index.js",
+  "config": {
+    "arquivo": "default"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "icons": "node ./tarefas/criaIcones.js"
+    "icons": "node ./tarefas/criaIcones.js",
+    "capas": "node ./tarefas/capas.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
   },
   "homepage": "https://github.com/SPURB/participe-elementos-interface#readme",
   "devDependencies": {
+    "sharp": "^0.22.1",
     "webfonts-generator": "^0.4.0"
   }
 }

@@ -44,3 +44,11 @@ https://www.figma.com/file/gl5QfVl6VtUe6JSTOUoa8JCZ/Participe-%C3%8Dcones?node-i
 npm run icons
 ```
 Se tudo der certo a font com os ícones do participe estará criada em `publicos/icones`.
+
+___
+### Capas 
+> Procedimento para criar capas para home do participe. 
+
+```bash
+npm run capas --elemento:arquivo=nome-do-arquivo.jpg
+```
