@@ -5,7 +5,7 @@ const file = process.env.npm_package_config_arquivo
 
 const inputFolder = './capas/'
 const outputFolder = './publicos/capas/'
-const sizes = [ 1900, 1300, 1000, 700, 480, 15 ]
+const sizes = [ 1900, 1300, 1000, 800, 700, 480, 40, 15 ]
 
 let setup = dir => { !fs.existsSync(dir) && fs.mkdirSync(dir) }
 setup(outputFolder)
