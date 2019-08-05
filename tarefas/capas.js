@@ -5,6 +5,7 @@ const file = process.env.npm_package_config_arquivo
 
 const inputFolder = './capas/'
 const outputFolder = './publicos/capas/'
+<<<<<<< HEAD
 // consultas abertas: 800x450 (1x) / 1600x900 (2x)
 // consultas encerradas: 122x68 (1x) / 244x136 (2x)
 // placeholder: 40x40
@@ -15,6 +16,9 @@ const sizes = [
     { 'width': 122, 'height': 68, 'for': 2 },   // encerradas, 1x
     { 'width': 40, 'height': 40, 'for': 3 }     // placeholder
 ]
+=======
+const sizes = [ 1900, 1600, 1300, 1000, 800, 700, 480, 122, 40, 15 ]
+>>>>>>> 230a494f8522f958cd61ca70eac1d970bceaf735
 
 let setup = dir => { !fs.existsSync(dir) && fs.mkdirSync(dir) }
 setup(outputFolder)

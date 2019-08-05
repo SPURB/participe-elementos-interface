@@ -55,12 +55,6 @@ ___
 > No site as seguintes larguras de imagens são utilizadas (em pixels): `1600x900`, `800x450`, `244x136`, `122x68` e `40x40`.  Esta tarefa vai redimensionar e cortar as imagens para esses tamanhos.
 > O procedimento também irá compilar as imagens, nos mesmos formatos e larguras, para `.webp`.
 
-{ 'width': 1600, 'height': 900, 'for': 1 }, // abertas, 2x
-{ 'width': 800, 'height': 450, 'for': 1 },  // abertas, 1x
-{ 'width': 244, 'height': 136, 'for': 2 },  // encerradas, 2x
-{ 'width': 122, 'height': 68, 'for': 2 },   // encerradas, 1x
-{ 'width': 40, 'height': 40, 'for': 3 }     // placeholder
-
 
 #### Pré-requisitos:
 - [nodejs](https://nodejs.org/en/)
