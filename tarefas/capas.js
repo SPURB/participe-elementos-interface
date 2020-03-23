@@ -22,6 +22,7 @@ let setup = dir => { !fs.existsSync(dir) && fs.mkdirSync(dir) }
 setup(outputFolder)
 
 let inputPath = file => `${ inputFolder }${ file }`
+
 let createFile = ( input, size ) => {
 	const file = input.replace(inputFolder, '')
 
@@ -33,7 +34,8 @@ let createFile = ( input, size ) => {
 			.resize({ width: size.width, height: size.height, fit: sharp.fit.cover })
 			.toFile(`${outputFolder}${fileNoExtension}_${size.width}w.${extension}`)
 			.catch( err => {
-				throw new Error(err)
+				console.log(input)
+				console.error(err)
 			})
 
 		sharp(input)
@@ -41,7 +43,8 @@ let createFile = ( input, size ) => {
 			.webp()
 			.toFile(`${outputFolder}${fileNoExtension}_${size.width}w.webp`)
 			.catch( err => {
-				throw new Error(err)
+				console.log(input)
+				console.error(err)
 			})
 	}
 	else if (size.for == 3) {
@@ -50,7 +53,8 @@ let createFile = ( input, size ) => {
 			.blur(5)
 			.toFile(`${outputFolder}${fileNoExtension}_${size.width}w.${extension}`)
 			.catch( err => {
-				throw new Error(err)
+				console.log(input)
+				console.error(err)
 			})
 
 		sharp(input)
@@ -59,7 +63,8 @@ let createFile = ( input, size ) => {
 			.webp()
 			.toFile(`${outputFolder}${fileNoExtension}_${size.width}w.webp`)
 			.catch( err => {
-				throw new Error(err)
+				console.log(input)
+				console.error(err)
 			})
 	}
 }
